@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Full Stack Todo App Frontend
+
+### Environent variables required for running:
+(for local setup)
+REACT_APP_AUTH_API_URL = http://localhost:5000/api/users/
+REACT_APP_TASK_API_URL = http://localhost:5000/api/tasks/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

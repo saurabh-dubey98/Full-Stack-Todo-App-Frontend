@@ -1,0 +1,62 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.modal-btns {
+    display: flex;
+    margin-top: 30px;
+}
+
+.modal-close-btn {
+    display: block;
+    padding: 5px 8px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #5b5b66;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.modal-close-btn:hover {
+    border-color: #f1686d;
+    color: #f1686d;
+}
+.modal-submit-btn {
+    display: block;
+    padding: 5px 8px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #5b5b66;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    font-weight: 700;
+}
+
+.modal-submit-btn:hover {
+    border-color: #1870f0;
+    color: #1870f0;
+}
+

@@ -1,0 +1,25 @@
+.subtask-container {
+    display: flex;
+    align-items: center;
+}
+
+.subtask-container input {
+    margin-right: 10px;
+}
+
+.subtask-container h4 {
+    font-weight: 600;
+    font-size: 0.98rem;
+}
+
+.subTaskCompleteStyle {
+    text-decoration: line-through;
+}
+
+.dubtask_delete-btn {
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 15px;
+    font-size: 1.2rem;
+    fill: #f1686d;
+}

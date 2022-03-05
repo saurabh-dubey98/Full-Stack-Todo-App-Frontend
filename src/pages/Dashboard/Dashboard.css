@@ -1,0 +1,119 @@
+.task {
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid #828292;
+    outline: none;
+    transition: all 300ms;
+}
+
+.task:focus {
+    border-bottom: 2px solid #1870f0;
+}
+
+.add-task-btn {
+    display: block;
+    padding: 5px 8px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background-color: #1870f0;
+    color: white;
+}
+
+.add-task-btn:hover {
+    opacity: 0.9;
+}
+
+.add-task-form-container {
+    margin-bottom: 2rem;
+}
+
+.search-filter {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.filter-container div label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+#filter {
+    outline: none;
+    cursor: pointer;
+    padding: 3px 10px;
+    font-size: 0.9rem;
+    border: 1px solid #828292;
+    border-radius: 10px;
+}
+
+.search-container {
+    margin-left: 20px;
+}
+
+.search-container label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+
+#search {
+    outline: none;
+    padding: 3px 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 1px solid #828292;
+    border-radius: 10px;
+    color: #15141a;
+}
+
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px 8px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #5b5b66;
+    font-size: 1rem;
+}
+
+.add-task-form h2 {
+    margin-bottom: 15px;
+    border: none;
+    border-left: 3px solid #1870f0;
+    padding-left: 8px;
+}
+
+#remindMe {
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 1px solid #828292;
+    border-radius: 10px;
+}
+
+.hr-line {
+    border: 0.5px solid #e1e1e9;
+    margin-bottom: 1.5rem;
+}

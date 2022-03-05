@@ -1,0 +1,116 @@
+.task-subtask-container {
+    border: none;
+    border-left: 5px solid #1870f0;
+    padding-left: 15px;
+    margin: 35px 0;
+}
+
+.task-section-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item {
+    margin-bottom: 15px;
+}
+
+.task-item div {
+    display: flex;
+    align-items: center;
+}
+
+.task-item div input {
+    margin-right: 20px;
+}
+.task-item div h2 {
+    font-size: 1.3rem;
+}
+
+.task-item p {
+    margin-left: 34px;
+    color: #5b5b66;
+}
+
+.duedate-and-status-container {
+    display: flex;
+    align-items: center;
+}
+
+.item-status {
+    margin-right: 20px;
+}
+
+.item-status label {
+    font-weight: 700;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.item-due-date label {
+    font-weight: 700;
+    margin-right: 7px;
+    cursor: pointer;
+    color: #f1686d;
+}
+
+.subtask-section-container {
+    margin-left: 35px;
+}
+
+/* .task-item-left {
+    display: flex;
+    flex-direction: column;
+} */
+
+.delete-and-edit-btn-container {
+    margin-left: auto;
+}
+
+.task-edit-btn {
+    fill: #1870f0;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.task-delete-btn {
+    fill: #f1686d;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.completedTaskStyle {
+    text-decoration: line-through;
+}
+
+
+.add-sub-task{
+    padding: 5px 8px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #5b5b66;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.add-sub-task:hover {
+    border-color: #1870f0;
+    color: #1870f0;
+}
+
+.reminder-container {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.due-date {
+    font-size: 0.9rem;
+    color: #f1686d;
+    font-weight: 700;
+}
