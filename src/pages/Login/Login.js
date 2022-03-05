@@ -9,7 +9,7 @@ import { Card } from "../../components"
 const Login = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
-    const { isError, isLoading, isSuccess, message, user } = useSelector(state => state.auth)
+    const { isError, isLoading, isSuccess, user } = useSelector(state => state.auth)
     const dispatch = useDispatch()
     const navigate = useNavigate()
     const loginSubmitHandler = e => {
@@ -38,7 +38,7 @@ const Login = () => {
             alert('Invalid Credentials')
         }
         reset()
-    }, [isSuccess, navigate, reset, user, isError])
+    }, [isSuccess, navigate, user, isError])
 
     if (isLoading) {
         return <div>Loading...</div>

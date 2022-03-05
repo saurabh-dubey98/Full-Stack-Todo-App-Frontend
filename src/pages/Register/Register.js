@@ -40,7 +40,7 @@ const Register = () => {
             navigate('/')
         }
         reset()
-    }, [isSuccess, navigate, reset, user])
+    }, [isSuccess, navigate, user])
 
     if (isLoading) {
         return <div>Loading...</div>

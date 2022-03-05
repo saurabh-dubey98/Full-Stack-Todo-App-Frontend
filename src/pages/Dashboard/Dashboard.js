@@ -89,6 +89,7 @@ const Dashboard = () => {
                 if (diffBetweenDates <= 1) {
                     return task
                 }
+                return
             })
             setFilter(filteredTasks)
         }
@@ -100,6 +101,7 @@ const Dashboard = () => {
                 if (diffBetweenDates <= 7) {
                     return task
                 }
+                return
             })
             setFilter(filteredTasks)
         }
@@ -111,6 +113,7 @@ const Dashboard = () => {
                 if (diffBetweenDates > 7 && diffBetweenDates < 14) {
                     return task
                 }
+                return
             })
             setFilter(filteredTasks)
         }
@@ -122,6 +125,7 @@ const Dashboard = () => {
                 if (diffBetweenDates > 14) {
                     return task
                 }
+                return
             })
             setFilter(filteredTasks)
         }
@@ -130,6 +134,7 @@ const Dashboard = () => {
                 if (task.taskState) {
                     return task
                 }
+                return
             })
             setFilter(filteredTasks)
         }
