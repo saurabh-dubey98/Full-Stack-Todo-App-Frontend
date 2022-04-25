@@ -1,9 +1,7 @@
 # Full Stack Todo App Frontend
 
-### Environent variables required for running:
-(for local setup)
-REACT_APP_AUTH_API_URL = http://localhost:5000/api/users/
-REACT_APP_TASK_API_URL = http://localhost:5000/api/tasks/
+##Live Link
+[Live Demo Link](https://todo-fullstack-mern-app-front.herokuapp.com)
 
 ## Getting Started with Create React App
 
