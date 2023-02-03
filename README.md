@@ -1,7 +1,7 @@
 # Full Stack Todo App Frontend
 
 ##Live Link
-[Live Demo Link](https://todo-fullstack-mern-app-front.herokuapp.com)
+[Live Demo Link](https://full-stack-todo-app-frontend.vercel.app/)
 
 ## Getting Started with Create React App
 
